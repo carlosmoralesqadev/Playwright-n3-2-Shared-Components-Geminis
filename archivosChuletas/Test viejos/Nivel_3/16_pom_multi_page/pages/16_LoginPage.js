@@ -1,7 +1,7 @@
 import { expect } from "@playwright/test";
 import { Locators } from "../data/testData.js";
 
-import { ProductsPage } from "../pages/ProductsPage.js";
+import { ProductsPage } from "./16_ProductsPage.js";
 
 export class LoginPage {
     /** @param {import('@playwright/test').Page} page */
